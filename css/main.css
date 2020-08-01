@@ -1,5 +1,5 @@
 body {
-    font-family: Geneva, Verdana, sans-serif;
+    /* font-family: Geneva, Verdana, sans-serif; */
     margin: 0;
     padding: 0;
     text-align: center;
@@ -7,7 +7,7 @@ body {
 
 .t1 {
     letter-spacing: 15px;
-    border: 2px groove forestgreen;
+    border: 2px groove red;
     font-size: 64px;
     padding: 0 20px;
     display: inline-block;
@@ -16,6 +16,8 @@ body {
 .l1,
 .l2,
 .l3 {
-    border: 2px solid royalblue;
-    border-radius: 50%;
+    font-size: 15px;
+    color: royalblue;
+    border: 2px solid black;
+    /* border-radius: 50%; */
 }
